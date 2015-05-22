@@ -1,0 +1,6 @@
+source /etc/profile.d/rvm.sh
+gem install bundler
+bundle install
+rails server
+
+http://localhost:3000

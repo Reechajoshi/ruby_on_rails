@@ -1,0 +1,15 @@
+<html>
+<head><title>Test Page</title>
+<%= javascript_include_tag "main" %>
+</head>
+<body>
+<h1>Test Works</h1>
+<!-- <img src="images/up_arrow.png" alt="up"> -->
+<%= image_tag("asset_up.png", :alt => "rss feed") %>
+
+<!-- <%= render "shared/menu" %> -->
+partical calling <br>
+<%= render partial: "link_area", locals: {:info => "first", :img_style => "original"} %>
+
+</body>
+<html>
